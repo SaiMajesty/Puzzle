@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="logone.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init("82Qz-e8YFtbTg-OAO");
+            })();
+        </script>
+    </head>
+    <body>
+        <div id="sectionmainpage">
+            <form id="myForm">
+    
+                <div class="container">
+    
+                    <h1 class="main-heading mb-5">Log-In/Sign-In Details </h1>
+                    <div class="mb-3 d-flex flex-column justify-content-center">
+    
+                        <label class="heading" for="mail">Email</label>
+                        <input type="text" class="size" id="mail" />
+                        <p id="mailErrMsg" class="error mt-4 "></p>
+                    </div>
+                    <div class="mb-3 d-flex flex-column justify-content-center">
+                        <label class="heading" for="password">Password</label>
+                        <input type="password" class="size" id="password" />
+                        <p id="passwordErrMsg" class="error  mt-4 "></p>
+                    </div>
+    
+                    <button class="btn" id="signin">Sign-In</button>
+                    <button class="btn" id="login">Log-In</button>
+                </div>
+            </form>
+        </div>
+    
+
+
+       <script src="script.js"></script>
+    </body>
+</html>

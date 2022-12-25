@@ -1,0 +1,44 @@
+
+.puzzle {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: #ddd;
+}
+
+.main {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item {
+    width: 75px;
+    height: 75px;
+    border: 0.5px solid;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    background-color: #ddd;
+
+}
+
+.btn {
+    border: 1px solid black;
+    height: 40px;
+    width: 186px;
+    border-radius: 6px;
+    background-color: #61dafb;
+    font-size: 18px;
+    color: black;
+    margin-top: 35px;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 5px;
+
+}

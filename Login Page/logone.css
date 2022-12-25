@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://wi.wallpapertip.com/wsimgs/55-559958_amazing-backgrounds-for-school-website.jpg");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.main-heading {
+    font-family: "Roboto";
+    font-size: 39px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 510;
+}
+
+.btn {
+    border: 1px solid black;
+    height: 40px;
+    width: 186px;
+    border-radius: 6px;
+    background-color: #61dafb;
+    font-size: 18px;
+    color: black;
+    margin-top: 35px;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.label {
+    font-family: "Roboto";
+    font-size: 34px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 34px;
+    font-weight: bold;
+    text-align:center;
+}
+
+.size {
+    height: 40px;
+    width: 216px;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: black;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 29px;
+    color: black;
+}

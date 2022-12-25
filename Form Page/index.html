@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <link rel="stylesheet" href="logone.css">
+</head>
+
+<body>
+    <div class="bg-home-page-container">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="image-container" />
+        <h1 class="heading">Enter Your Basic Details</h1>
+
+        <form id="addUserForm">
+            <div class="mb-3">
+                <label class="head" for="name">UserName:-</label>
+                <input type="text" id="name" class="form-control" />
+
+            </div>
+            <div class="mb-3">
+                <label class="head" for="mobile">Mobile No:-</label>
+                <input type="text" id="mobile" class="form-control" />
+
+            </div>
+            <div class="mb-3">
+                <label class="head" for="date">DOB:-</label>
+                <input type="date" id="date" class="form-control" />
+
+            </div>
+            <p class="head">Address:-</p>
+            <textarea rows="2" cols="25" id="address"></textarea>
+            <br />
+            <div class="mb-3">
+                <h1 class="head">Gender</h1>
+                <input type="radio" name="gender" id="genderMale" value="Male" checked />
+                <label for="genderMale">Male</label>
+                <input type="radio" id="genderFemale" name="gender" value="Female" />
+                <label for="genderFemale">Female</label>
+            </div>
+
+
+            <button id="btn" class="btn">Submit</button>
+            <button id="back" class="btn btn-l">Back</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
